@@ -1,0 +1,50 @@
+.footer {
+  background-color: #2C2B2B;
+  color: rgba(252, 245, 245, 0.86);
+  padding: 30px;
+  margin-top: auto;
+  height: 155px; /* Adjust height as needed */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links p {
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: rgb(131, 172, 218);
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+/* Add space between the first and second row */
+.footer .row + .row {
+  /* margin-top: 90px; Adjust the margin as needed */
+}
+
+.separator {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.text-right {
+  text-align: right;
+  margin-top: 15px;
+}

@@ -1,0 +1,75 @@
+/* CONTENT */
+
+.landingpagebanner {
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(18, 79, 18);
+  padding: 100px 0;
+  text-align: left;
+}
+
+.landingpagebanner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.deb-slogan {
+  position: relative;
+  text-align: left;
+  color: white;
+  font-size: 60px;
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.mission-text {
+  text-align: left;
+  color: #1F5804;
+  padding: 25px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mission-title {
+  font-size: 20px;
+}
+
+.opp-text {
+  font-size: 30px;
+}
+
+.deb-text {
+  font-size: 20px;
+}
+
+.visionrow {
+  background-color: #1F5804;
+}
+
+.debvision-text {
+color: white;
+text-align: right;
+padding: 25px;
+}
+
+.vision-title {
+font-size: 20px;
+}
+
+.ed-text {
+font-size: 30px;
+}
+
+.bio-text {
+font-size: 20px;
+}

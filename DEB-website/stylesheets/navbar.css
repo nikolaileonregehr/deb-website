@@ -1,0 +1,52 @@
+/* NAVBAR */
+.navbar-deb {
+  justify-content: space-between;
+  background: white;
+  font-family: var(--font-dm-sans);
+}
+
+.navbar-deb .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-deb .navbar-brand img {
+  width: 50px;
+  height: 30px;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-deb .navbar-nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.signup-btn:hover {
+ border-color: #b3b3b3;
+ background-color: #87b68c;
+ transition: 0.4s;
+}
+
+.btn.btn-green {
+  color: #fff !important;
+  background-color: rgb(18, 79, 18) !important; /* Green color */
+  border-color: #4d845a !important; /* Green color */
+  width: 200px; /* Adjust the width as needed */
+  height: 37px;
+  text-decoration: none !important; /* Remove underline */
+  padding: 10px; /* Add padding for better appearance */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 10px;
+}
+
+.btn.btn-green:hover {
+  background-color: #218838 !important; /* Darker green color on hover */
+  border-color: #1e7e34 !important; /* Darker green color on hover */
+}
